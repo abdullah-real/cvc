@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+.cv-container {
+    width:800px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+.name{
+    color: magenta;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin-bottom: 0cap;
+}
+.working{
+    text-align: center;
+    font-size:18px;
+    letter-spacing: 2px;
+    color: black;
+    margin-bottom: 3px; 
+}
+
+.contact{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+
+}
+
+.section{
+    margin-bottom: 30px;
+}
+.section h3 {
+    color: rgb(10, 204, 204);
+    font-size: 18px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+.experience .job{
+    margin-bottom: 15px;
+}
+.skill-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.skill-list li{
+    background-color: chartreuse;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #060801;
+}
+
+.references p {
+  margin: 4px 0;
+}
